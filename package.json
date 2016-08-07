@@ -1,0 +1,15 @@
+{
+  "name": "nml",
+  "version": "1.0.0",
+  "description": "A node library seed project with travis ci and mocha tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive src "
+  },
+  "author": "orie@or13.io",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0"
+  }
+}
