@@ -2,14 +2,19 @@
   "name": "nml",
   "version": "1.0.0",
   "description": "A node library seed project with travis ci and mocha tests.",
-  "main": "index.js",
+  "main": "nml.js",
   "scripts": {
+    "deploy": "gulp deploy",
+    "gen-docs": "rm -rf docs; jsdoc --configure .jsdoc.json --verbose",
     "test": "mocha --recursive src "
   },
   "author": "orie@or13.io",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "minami": "^1.1.1",
     "mocha": "^3.0.0"
   }
 }
